@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane prefHeight="431.0" prefWidth="469.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" >
+  <children>
+    <Button fx:id="btnCheckoutBooks" layoutX="24.0" layoutY="118.0" mnemonicParsing="false" prefWidth="132.0" text="Checkout Books" />
+    <Button fx:id="btnBooks" layoutX="24.0" layoutY="151.0" mnemonicParsing="false" prefWidth="132.0" text="Add copy book" />
+    <Button fx:id="btnLibraryMembers" layoutX="24.0" layoutY="82.0" mnemonicParsing="false" text="Add library members" />
+    <Button fx:id="btnMembersRecords" layoutX="24.0" layoutY="185.0" mnemonicParsing="false" prefWidth="132.0" text="Members records" />
+    <Button fx:id="btSignOut" layoutX="301.0" layoutY="82.0" mnemonicParsing="false" prefWidth="132.0" text="Singout" textFill="RED" />
+  </children>
+</Pane>
