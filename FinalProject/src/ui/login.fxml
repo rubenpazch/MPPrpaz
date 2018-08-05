@@ -11,8 +11,8 @@
     <GridPane layoutX="18.0" layoutY="132.0" prefWidth="279.0">
       <children>
         <Button fx:id="btLogin" mnemonicParsing="false" text="Login" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-        <Label text="Label" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-        <Label text="Label" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Label text="Password" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Label text="User" GridPane.columnIndex="0" GridPane.rowIndex="0" />
         <TextField fx:id="txtUser" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
         <TextField fx:id="txtPwd" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       </children>

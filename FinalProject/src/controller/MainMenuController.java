@@ -85,7 +85,6 @@ public class MainMenuController {
 				Util.showAlert("Librarian cannot add Member", "Permission denied", AlertType.ERROR);
 				return;
 			}
-			//System.out.println("btnLibraryMembers");
 			try {
 				LibraryMemberController librarymember = new LibraryMemberController(this.user);
 				librarymember.start(stage);
@@ -93,11 +92,9 @@ public class MainMenuController {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
 		});
 
 		btnMembersRecords.setOnAction((event) -> {
-
 		//	CheckEntriesMemberController recordsentries = new CheckEntriesMemberController(this.user);
 			try {
 				//recordsentries.start(stage);
@@ -105,9 +102,7 @@ public class MainMenuController {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-
 		});
-
 		stage.show();
 	}
 

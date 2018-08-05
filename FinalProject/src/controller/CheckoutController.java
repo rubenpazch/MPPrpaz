@@ -26,6 +26,7 @@ import util.Util;
 public class CheckoutController {
 
 	private User user;
+
 	private static DataAccess db = new DataAccessFacade();
 
 	public CheckoutController(User user) {
