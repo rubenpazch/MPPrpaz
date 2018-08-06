@@ -136,7 +136,7 @@ public class CheckoutController {
 	}
 
 	public void checkoutSuccess(CheckoutRecordEntry cre) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("/fxml/checkoutbook-success.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/ui/checkoutbook-success.fxml"));
 		this.primaryStage.setTitle("FXML Welcome");
 
 		this.primaryStage.setScene(new Scene(root, 300, 300));
